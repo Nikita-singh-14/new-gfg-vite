@@ -1,15 +1,7 @@
 // components/Teams.js
 import React from "react";
 
-const teams = [
-  { name: "Web Dev", img: "/assets/webdev.jpg" },
-  { name: "AI/ML", img: "/assets/ai_ml.jpg" },
-  { name: "App Dev", img: "/assets/appdev.jpg" },
-  { name: "CP DSA", img: "/assets/cp_dsa.jpg" },
-  { name: "Game Dev", img: "/assets/gamedev.jpg" },
-  { name: "Internet of Things", img: "/assets/iot.jpg" },
-  { name: "Cyber Security", img: "/assets/cyber.jpg" },
-];
+
 
 const Teams = () => {
   return (

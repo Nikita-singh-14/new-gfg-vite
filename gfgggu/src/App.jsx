@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Teams from "./components/Teams";
 import "./index.css";
 import Core from "./pages/core";
+import TechnicalTeams from "./pages/TechnicalTeams";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Core/>
-      <Teams />
+      <TechnicalTeams/>
     </div>
   );
 }
